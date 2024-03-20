@@ -1,7 +1,7 @@
 git clone  https://github.com/ian-knight-uofa/git-practice-04.git
 git remote rm origin
-git remote https://github.com/ian-knight-uofa/git-practice-04.git
-cd git practice-04.git
+git remote origin https://github.com/ian-knight-uofa/git-practice-04.git
+cd git practice-04
 git pull origin main
 git checkout ready1
 git pull

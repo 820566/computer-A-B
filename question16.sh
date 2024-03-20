@@ -1,6 +1,6 @@
 git clone https://github.com/ian-knight-uofa/git-practice-02.git
 git remote rm origin
-git remote https://github.com/ian-knight-uofa/git-practice-02.git
+git remote add https://github.com/ian-knight-uofa/git-practice-02.git
 cd git practice-02.git
 git pull origin main
 git fetch origin main

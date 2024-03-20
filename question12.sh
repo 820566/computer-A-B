@@ -1,3 +1,3 @@
 git checkout branch2
-git add * 
+git stash apply
 git commit -m "question12"

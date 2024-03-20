@@ -1,16 +1,15 @@
 git clone  https://github.com/ian-knight-uofa/git-practice-03.git
 git remote rm origin
 git remote https://github.com/ian-knight-uofa/git-practice-03.git
-cd git practice-03.git
+cd git practice-03
 git pull origin main
 git fetch origin main
-cd dir1
-rm dir1
-cd ../ dir3
-cp bar bar_copy
+cd dir3
+copy bar bar_copy
 cd ..
 git add *
-git commit "main"
+git stash
+
 
 git checkout -b branch1
 cd dir1 
@@ -19,20 +18,21 @@ rm -r dir2
 cd ..
 touch newfile1
 cd dir3
-rm bar_copy
+
 cd ..
-git add*
-git commit "branch1"
+git add *
+git stash
 
 git checkout -b "branch2"
-cd dir1
-mkdir dir2
+cd dir1/dir2
 mv foo foo_modified
-mv foo_modified dir2
-cd ../dir3
-rm bar
-touch newfile2
+
 cd ..
+mkdir dir3
+cd dir3
+touch newfile2
+cd ../..
+rm -r dir3
 rm newfile1
-git add*
-git commit -m "branch2"
+git add *
+git stash

@@ -2,8 +2,8 @@ git clone  https://github.com/ian-knight-uofa/git-practice-03.git
 git remote rm origin
 git remote https://github.com/ian-knight-uofa/git-practice-03.git
 cd git practice-03
-git pull origin main
-git fetch origin main
+#git pull origin main
+git fetch origin #main
 cd dir3
 copy bar bar_copy
 cd ..

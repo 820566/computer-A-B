@@ -1,7 +1,7 @@
+git clone https://github.com/ian-knight-uofa/git-practice-04.git
+cd .\git-practice-04\
+git fetcch
+git branch -a
 
-git remote rm origin
-git remote add https://github.com/ian-knight-uofa/git-practice-04.git
-cd git-practice-04
-git fetch origin 
-git checkout update1
-git commit -m "update1"
+git checkout -b update1 remotes/origin/update1
+git branch -avgit checkout -b update1 remotes/origin/update1

@@ -1,5 +1,4 @@
 mkdir dir2
-cd dir2
-mv ../*.txt 
+mv *.txt dir2
 git add *
-git commit -m "mv txt"
+git commit -m"mv txt"
